@@ -1,0 +1,89 @@
+﻿#foto {
+    width: 200px;
+    margin: 2rem 0;
+    border-radius: 50%
+}
+
+.seccion-bienvenida {
+    margin: 5rem 0 10rem 0;
+    color: white;
+}
+
+    .seccion-bienvenida h1 {
+        margin-bottom: 1rem;
+    }
+
+    .seccion-bienvenida p {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 1.25rem;
+    }
+
+#imagen-net {
+    width: 200px;
+}
+
+.cabecera {
+    font-weight: bold;
+}
+
+.habilidades ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.habilidades i {
+    font-size: 50px;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Nunito', sans-serif;
+    color: #1E293B;
+}
+
+    .profile-header h1 {
+        font-weight: 800;
+        font-size: 3rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .profile-header h2 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #3B82F6; /* Azul profesional */
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 1.5rem;
+    }
+
+#foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #3B82F6;
+    box-shadow: 0 4px 12px rgb(59 130 246 / 0.4);
+}
+
+.tech-icons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+}
+
+    .tech-icons img {
+        height: 60px;
+        width: auto;
+        filter: grayscale(0.15);
+        transition: filter 0.3s ease, transform 0.3s ease;
+        cursor: default;
+    }
+
+        .tech-icons img:hover {
+            filter: none;
+            transform: scale(1.1);
+        }
